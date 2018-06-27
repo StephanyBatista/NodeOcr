@@ -8,7 +8,7 @@ RUN apt-get install -y tesseract-ocr-eng
 
 WORKDIR /app
 
-COPY image.png index.js package.json
+COPY . .
 
 RUN npm install
 
